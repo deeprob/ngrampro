@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ngrampro/__init__.py
+src/ngrampro/ngrampro.py
+src/ngrampro.egg-info/PKG-INFO
+src/ngrampro.egg-info/SOURCES.txt
+src/ngrampro.egg-info/dependency_links.txt
+src/ngrampro.egg-info/requires.txt
+src/ngrampro.egg-info/top_level.txt
