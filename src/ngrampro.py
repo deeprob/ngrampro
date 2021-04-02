@@ -148,7 +148,7 @@ class Ngram:
                     ngram_dict[seq] = 1
                 i += self.step
 
-        feature_list = sorted([k for k, v in ngram_dict.items() if v > self.keep_v])
+        feature_list = sorted([k for k, v in ngram_dict.items() if v >= self.keep_v])
         self.encoder_dict = dict(zip(feature_list, list(range(len(feature_list)))))
         return
 
@@ -209,7 +209,7 @@ class NGModel:
     x_test : array or None
         one-hot encoded representation of protein sequences in the optional test set.
     """
-    def __init__(self, x_train, x_valid, x_test=None, k=7, s=1, inc_count=False, keep_v=1):
+    def __init__(self, x_train, x_valid, x_test=None, k=3, s=1, inc_count=False, keep_v=1):
         """
         Constructs the necessary attributes for the NGModel object
 
@@ -270,7 +270,7 @@ class GAANGModel:
     x_test : array or None
         one-hot encoded representation of protein sequences in the optional test set.
     """
-    def __init__(self, x_train, x_valid, x_test=None, k=7, s=1, inc_count=False, keep_v=1):
+    def __init__(self, x_train, x_valid, x_test=None, k=3, s=1, inc_count=False, keep_v=1):
         """
         Constructs the necessary attributes for the GAANGModel object
 
