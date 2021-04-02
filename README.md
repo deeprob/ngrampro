@@ -44,7 +44,7 @@ sequences. This is the only class in this module that can work with any sequence
 
     Collecting ngrampro
       Using cached ngrampro-0.0.5-py3-none-any.whl (5.3 kB)
-    Requirement already satisfied: numpy in /Users/dzb5732/opt/anaconda3/lib/python3.7/site-packages (from ngrampro) (1.17.2)
+    Requirement already satisfied: numpy in /Users/{user_name}/opt/anaconda3/lib/python3.7/site-packages (from ngrampro) (1.17.2)
     Installing collected packages: ngrampro
     Successfully installed ngrampro-0.0.5
 

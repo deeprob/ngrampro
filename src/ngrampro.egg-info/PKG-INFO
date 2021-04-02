@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ngrampro
-Version: 0.0.6
+Version: 0.0.7
 Summary: A python tool for k-mer generation from protein sequences
 Home-page: https://github.com/deeprob/ngrampro.git
 Author: Deepro Banerjee
@@ -52,7 +52,7 @@ Description: # ngrampro (ngram for protein sequences)
         
             Collecting ngrampro
               Using cached ngrampro-0.0.5-py3-none-any.whl (5.3 kB)
-            Requirement already satisfied: numpy in /Users/dzb5732/opt/anaconda3/lib/python3.7/site-packages (from ngrampro) (1.17.2)
+            Requirement already satisfied: numpy in /Users/{user_name}/opt/anaconda3/lib/python3.7/site-packages (from ngrampro) (1.17.2)
             Installing collected packages: ngrampro
             Successfully installed ngrampro-0.0.5
         
