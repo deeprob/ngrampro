@@ -1,3 +1,7 @@
+
+
+[![DOI](https://zenodo.org/badge/353539614.svg)](https://zenodo.org/badge/latestdoi/353539614)
+
 # ngrampro (ngram for protein sequences)
 A python tool to generate k-mers from protein sequences based on N-grams
 
